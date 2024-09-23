@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Jordi",
+    "email": "jordi@gmail.com",
+    "password": "1234",
+    "role": "user",
+    "id": "12569ea03dcd2ee17b03fb2c"
+  },
+  {
+    "name": "Pedro",
+    "email": "pedro@gmail.com",
+    "password": "1234",
+    "role": "pedro",
+    "id": "3d126b0f34daa92c56e9f427"
+  },
+  {
+    "name": "Matias",
+    "email": "matias@gmail.com",
+    "password": "1234",
+    "role": "admin",
+    "id": "58f351dc72346e827a9273d8"
+  },
+  {
+    "name": "Nico",
+    "email": "matias@gmail.com",
+    "password": "1234",
+    "role": "user",
+    "id": "ee86a02e5a00a6e083f35a04"
+  },
+  {
+    "name": "Juan",
+    "email": "juan@gmail.com",
+    "password": "1234",
+    "role": "user",
+    "id": "b5ea81609650957765757022"
+  },
+  {
+    "name": "Natasha",
+    "email": "natasha@gmail.com",
+    "password": "1234",
+    "role": "admin",
+    "id": "2491869885fe46257dd037f4"
+  }
+]
