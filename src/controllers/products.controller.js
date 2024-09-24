@@ -22,10 +22,16 @@ async function getAllProducts(req, res, next) {
 }
 async function getProduct(req, res) {
   try {
-    const {pid} = req.params;
-  } catch (error) {
-    
-  }
+    const { pid } = req.params;
+    const response = await productsManager.read(pid);
+    if (response) {
+      return res.status(200).json({ message: "Product read", response });
+    } else {
+      const error = new Error("Not found product");
+      error.statusCode = 404;
+      throw error;
+    }
+  } catch (error) {}
 }
 async function createGet(req, res) {}
 async function createProduct(req, res) {}
