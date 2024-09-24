@@ -1,17 +1,25 @@
 import express from "express";
-import userController from "./src/controllers/users.controllers.js";
+import router from "./src/routers/index.router.js";
+import morgan from "morgan";
+import errorHandler from "./src/middlewares/errorHandler.mid.js";
+import cors from "cors";
 
-const server = express();
+try {
+  const server = express();
 
-const port = 8080;
+  const port = 8080;
 
-const ready = () => console.log("Server ready on port" + port);
+  const ready = () => console.log("Server ready on port" + port);
 
-server.listen(port, ready);
+  server.listen(port, ready);
 
-server.use(express.urlencoded({ extended: true }));
+  server.use(express.urlencoded({ extended: true }));
+  server.use(express.json());
+  server.use(morgan("dev"));
+  server.use(cors());
 
-server.use(express.json());
-
-server.get("/api/users", userController.readUsers);
-server.post("/api/users", userController.createUser);
+  server.use(router);
+  server.use(errorHandler);
+} catch (error) {
+  console.log(error);
+}

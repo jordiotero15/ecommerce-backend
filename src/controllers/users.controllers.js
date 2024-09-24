@@ -10,7 +10,6 @@ class UserControllers {
       if (data.length > 0) {
         return res.status(200).json({ data, message: "users fetched" });
       } else {
-        //   return res.status(404).json({ message: "Users not found" });
         const error = new Error("Users not found");
         error.statusCode = 404;
         throw error;

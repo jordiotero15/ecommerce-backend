@@ -40,5 +40,12 @@
     "password": "1234",
     "role": "admin",
     "id": "2491869885fe46257dd037f4"
+  },
+  {
+    "name": "Lorenzo",
+    "email": "lorenzo@gmail.com",
+    "password": "1234",
+    "role": "admin",
+    "id": "c7ec391f21a24ecebb89bdb3"
   }
 ]
