@@ -65,30 +65,46 @@ class UsersManager {
 
   async update(uid, newData) {
     try {
-      // Leer todos los usuarios
       const data = await fs.promises.readFile(this.path, "utf-8");
       const parsedData = JSON.parse(data);
 
-      // Buscar el índice del usuario a actualizar
       const userIndex = parsedData.findIndex((each) => String(each.id) === String(uid));
 
       if (userIndex === -1) {
         throw new Error(`User with uid ${uid} not found`);
       }
-
-      // Actualizar los campos del usuario, manteniendo los existentes si no se pasan nuevos datos
       const updatedUser = {
         ...parsedData[userIndex],
-        ...newData, // Sobrescribe solo los campos que vienen en newData
+        ...newData,
       };
 
-      // Sobrescribir el usuario en el array con el nuevo usuario actualizado
       parsedData[userIndex] = updatedUser;
 
-      // Guardar los cambios en el archivo
       await fs.promises.writeFile(this.path, JSON.stringify(parsedData, null, 2));
 
-      return updatedUser; // Retornar el usuario actualizado
+      return updatedUser;
+    } catch (error) {
+      console.log(error);
+      throw error;
+    }
+  }
+
+  async delete(uid) {
+    try {
+      const data = await fs.promises.readFile(this.path, "utf-8");
+      const parsedData = JSON.parse(data);
+
+      const userIndex = parsedData.findIndex((each) => String(each.id) === String(uid));
+
+      if (userIndex === -1) {
+        return null;
+      }
+
+      const deletedUser = parsedData.splice(userIndex, 1)[0];
+
+      await fs.promises.writeFile(this.path, JSON.stringify(parsedData, null, 2));
+
+      return deletedUser;
     } catch (error) {
       console.log(error);
       throw error;

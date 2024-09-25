@@ -8,6 +8,6 @@ usersRouter.get("/", userController.readUsers);
 usersRouter.get("/:uid", userController.readOneUser);
 usersRouter.post("/", isValidDataUser, userController.createUser);
 usersRouter.put("/:uid", userController.updateUser);
-//usersRouter.delete("/:pid", userController.destroyUser);
+usersRouter.delete("/:uid", userController.destroyUser);
 
 export default usersRouter;

@@ -1,12 +1,5 @@
 [
   {
-    "name": "Jordi",
-    "email": "jordi@gmail.com",
-    "password": "1234",
-    "role": "user",
-    "id": "12569ea03dcd2ee17b03fb2c"
-  },
-  {
     "name": "Pedro",
     "email": "pedro@gmail.com",
     "password": "1234",

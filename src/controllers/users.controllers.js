@@ -1,4 +1,4 @@
-import usersManager from "../data/managers/users.fs.js";
+import usersManager from "../data/managers/users.manager.fs.js";
 
 class UserControllers {
   constructor() { }
@@ -80,6 +80,23 @@ class UserControllers {
       return next(error);
     }
   }
+
+  async destroyUser(req, res, next) {
+    try {
+      const { uid } = req.params;
+
+      const deletedUser = await usersManager.delete(uid);
+
+      if (!deletedUser) {
+        return res.status(404).json({ message: "User not found" });
+      }
+
+      return res.status(200).json({ message: "User deleted", deletedUser });
+    } catch (error) {
+      return next(error);
+    }
+  }
+
 
 
 

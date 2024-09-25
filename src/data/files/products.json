@@ -1,0 +1,170 @@
+[
+  {
+    "title": "Whey Protein 1 lb",
+    "photo": "whey-protein-1lb-img.jpg",
+    "category": "protein",
+    "price": 1000,
+    "stock": 50,
+    "id": "769c53c0814bb40a9476fef0"
+  },
+  {
+    "title": "Creatine Monohydrate 300g",
+    "photo": "creatine-monohydrate-300g-img.jpg",
+    "category": "creatine",
+    "price": 1200,
+    "stock": 30,
+    "id": "9f38522d1adece30545737c5"
+  },
+  {
+    "title": "BCAA Powder 500g",
+    "photo": "bcaa-powder-500g-img.jpg",
+    "category": "amino acids",
+    "price": 800,
+    "stock": 60,
+    "id": "446efe880b5dd2ebd8486e42"
+  },
+  {
+    "title": "Omega-3 Fish Oil",
+    "photo": "omega-3-fish-oil-img.jpg",
+    "category": "vitamins",
+    "price": 700,
+    "stock": 80,
+    "id": "9e2488a860616cc76fa1e9f1"
+  },
+  {
+    "title": "Multivitamin for Men",
+    "photo": "multivitamin-men-img.jpg",
+    "category": "vitamins",
+    "price": 600,
+    "stock": 90,
+    "id": "f740f2fd1791e75b52110d52"
+  },
+  {
+    "title": "Caffeine Tablets 100mg",
+    "photo": "caffeine-tablets-100mg-img.jpg",
+    "category": "energy",
+    "price": 300,
+    "stock": 200,
+    "id": "05dff3329d4b43cae2d5cc48"
+  },
+  {
+    "title": "Glutamine Powder 300g",
+    "photo": "glutamine-powder-300g-img.jpg",
+    "category": "recovery",
+    "price": 850,
+    "stock": 40,
+    "id": "59540313605eb9a19977bcbd"
+  },
+  {
+    "title": "Vitamin D3 1000 IU",
+    "photo": "vitamin-d3-1000-iu-img.jpg",
+    "category": "vitamins",
+    "price": 400,
+    "stock": 100,
+    "id": "21a1fbbb3585fc7830991a4d"
+  },
+  {
+    "title": "Zinc Chelate",
+    "photo": "zinc-chelate-img.jpg",
+    "category": "minerals",
+    "price": 500,
+    "stock": 70,
+    "id": "c1343cede9f8de563355e3c9"
+  },
+  {
+    "title": "Magnesium Complex",
+    "photo": "magnesium-complex-img.jpg",
+    "category": "minerals",
+    "price": 650,
+    "stock": 60,
+    "id": "3d4d8356979ba4e073affb36"
+  },
+  {
+    "title": "Pre-Workout Formula",
+    "photo": "pre-workout-formula-img.jpg",
+    "category": "energy",
+    "price": 1100,
+    "stock": 50,
+    "id": "dd3606c94774044df6f7294c"
+  },
+  {
+    "title": "Fat Burner Capsules",
+    "photo": "fat-burner-capsules-img.jpg",
+    "category": "weight loss",
+    "price": 900,
+    "stock": 75,
+    "id": "b9354afae032b4a9d631f514"
+  },
+  {
+    "title": "Casein Protein 2 lb",
+    "photo": "casein-protein-2lb-img.jpg",
+    "category": "protein",
+    "price": 1500,
+    "stock": 25,
+    "id": "e1bb52f1a6b645f9b6b5620c"
+  },
+  {
+    "title": "Mass Gainer 5 lb",
+    "photo": "mass-gainer-5lb-img.jpg",
+    "category": "weight gain",
+    "price": 1800,
+    "stock": 20,
+    "id": "1f9eb22cbfed689abf60a83d"
+  },
+  {
+    "title": "Beta-Alanine Powder 300g",
+    "photo": "beta-alanine-powder-300g-img.jpg",
+    "category": "amino acids",
+    "price": 850,
+    "stock": 45,
+    "id": "e8d121c98b9c4ddba72eb04f"
+  },
+  {
+    "title": "Collagen Peptides 500g",
+    "photo": "collagen-peptides-500g-img.jpg",
+    "category": "joint health",
+    "price": 1300,
+    "stock": 35,
+    "id": "f21b423f90578e4b6bcf0b43"
+  },
+  {
+    "title": "Green Tea Extract Capsules",
+    "photo": "green-tea-extract-capsules-img.jpg",
+    "category": "antioxidants",
+    "price": 500,
+    "stock": 90,
+    "id": "968592f81dab49628cf54018"
+  },
+  {
+    "title": "Ashwagandha Capsules",
+    "photo": "ashwagandha-capsules-img.jpg",
+    "category": "stress relief",
+    "price": 900,
+    "stock": 55,
+    "id": "e074603128f1eb25836ed8e2"
+  },
+  {
+    "title": "Turmeric Curcumin Capsules",
+    "photo": "turmeric-curcumin-capsules-img.jpg",
+    "category": "anti-inflammatory",
+    "price": 1000,
+    "stock": 45,
+    "id": "5ea936605ecb76a059aeb492"
+  },
+  {
+    "title": "L-Carnitine Liquid",
+    "photo": "l-carnitine-liquid-img.jpg",
+    "category": "weight loss",
+    "price": 850,
+    "stock": 60,
+    "id": "f6112a8f3d4dd620de5b519d"
+  },
+  {
+    "title": "Omega-3 Vegan",
+    "photo": "omega-3-vegan-img.jpg",
+    "category": "vitamins",
+    "price": 1100,
+    "stock": 70,
+    "id": "bb35db3f7ee7df8e69d487a8"
+  }
+]
