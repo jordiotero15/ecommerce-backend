@@ -1,16 +1,14 @@
-function isValidDataProduct(req, res, next) {
-    try {
-        const { email, password } = req.body;
-        if (!email || !password) {
-            const error = new Error("Email and password are required!");
-            error.statusCode = 400;
-            throw error;
-        } else {
-            return next();
-        }
-    } catch (error) {
-        throw error;
+function isValidDataUser(req, res, next) {
+    const { email, password, photo, role } = req.body;
+
+    if (!email || !password) {
+        return res.status(400).json({ message: "Email and password are required!" });
     }
+
+    req.body.photo = photo || "default-photo-url.jpg";
+    req.body.role = role || "user"; 
+
+    return next();
 }
 
-export default isValidDataProduct;
+export default isValidDataUser;

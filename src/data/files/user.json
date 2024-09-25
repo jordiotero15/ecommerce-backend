@@ -47,5 +47,19 @@
     "password": "1234",
     "role": "admin",
     "id": "c7ec391f21a24ecebb89bdb3"
+  },
+  {
+    "email": "juanito@gmail.com",
+    "password": "1234",
+    "photo": "default-photo-url.jpg",
+    "role": "user",
+    "id": "6453c67a551cd3f4aa697ef8"
+  },
+  {
+    "email": "nicolas@gmail.com",
+    "password": "1234",
+    "role": "user",
+    "photo": "nicolas-photo.jpg",
+    "id": "9ec1a0c8ccd5615cd1755f5f"
   }
 ]
