@@ -1,6 +1,6 @@
 E-commerce BackEnd - by Jordi Otero
 
-Este repositorio contiene el código para la gestión de una base de datos orientada a un proyecto de e-commerce del curso de coderhouse.
+Este repositorio contiene el código para la gestión de una base de datos orientada a un e-commerce.
 Proporciona funcionalidades sencillas para manejar usuarios y productos, incluyendo validaciones para asegurar la integridad de la información.
 
 | FUNCIONALIDADES |
@@ -12,22 +12,21 @@ Si se intenta crear un producto con un título ya creado, el sistema arrojará u
 
 Requisitos obligatorios:
 
--Título (title): Es obligatorio y debe ser único. Si ya existe otro producto con el mismo título, no se permitirá crear el nuevo producto.
-
--Precio (price): Puede ser un número positivo y es opcional, pero si no se proporciona, se asigna un valor por defecto(1).
-
--Stock (stock): Opcional, con un valor por defecto si no se especifica(1).
-
+-Título (title): es obligatorio y debe ser único. Si ya existe otro producto con el mismo título, no se permitirá crear el nuevo producto.
 
 Requisitos opcionales:
 
--Foto (photo): Si no se proporciona, se asignará una imagen predeterminada.
+-Precio (price): es opcional, pero si no se proporciona, se asigna un valor por defecto(1).
 
--Categoría (category): Si no se elige una categoría, se asignará "unknow" por defecto.
+-Stock (stock): es opcional, con un valor por defecto si no se especifica(1).
 
--Descripción (description): Campo opcional, se asignará "unknow" por defecto.
+-Foto (photo): es opcional, si no se proporciona, se asignará una imagen predeterminada.
 
--Estado (status): Se crea con el estado true por defecto.
+-Categoría (category): es opcional, si no se elige una categoría, se asignará "unknow" por defecto.
+
+-Descripción (description): es opcional, se asignará "unknow" por defecto.
+
+-Estado (status): es opcional, se crea con el estado true por defecto.
 
 ----------------------------------------------------------------------------------------------------------
 2- Gestión de usuarios
@@ -38,14 +37,14 @@ Requisitos obligatorios:
 
 -Email (email): Es obligatorio, de tipo texto, y debe ser único. Si se intenta registrar con un correo que ya existe, se producirá un error.
 
--Contraseña (password): Obligatoria.
+-Contraseña (password): Es obligatoria.
 
 
 Requisitos opcionales:
 
--Foto (photo): Opcional, si no se proporciona, se asigna una imagen por defecto.
+-Foto (photo): es opcional, si no se proporciona, se asigna una imagen por defecto.
 
--Rol (role): Puede ser "admin" o "user", siendo "user" el valor predeterminado si no se elige un rol.
+-Rol (role): es opcional, puede ser "admin" o "user", siendo "user" el valor predeterminado si no se elige un rol.
 
 ___________________________________________________________________________________________________________
 | INSTALACION DEL REPOSITORIO |
