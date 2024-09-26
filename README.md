@@ -19,7 +19,7 @@ Campos obligatorios:
 -Stock (stock): Opcional, con un valor por defecto si no se especifica(1).
 
 
-Campos Opcionales:
+Campos opcionales:
 
 -Foto (photo): Si no se proporciona, se asignará una imagen predeterminada.
 
@@ -30,18 +30,18 @@ Campos Opcionales:
 -Estado (status): Se crea con el estado true por defecto.
 
 ----------------------------------------------------------------------------------------------------------
-2- Gestión de Usuarios
+2- Gestión de usuarios
 
 Los usuarios pueden registrarse en el sistema cumpliendo con los requisitos obligaotrios.
 
-Campos Obligatorios:
+Campos obligatorios:
 
 -Email (email): Es obligatorio, de tipo texto, y debe ser único. Si se intenta registrar con un correo que ya existe, se producirá un error.
 
 -Contraseña (password): Obligatoria.
 
 
-Campos Opcionales:
+Campos opcionales:
 
 -Foto (photo): Opcional, si no se proporciona, se asigna una imagen por defecto.
 
