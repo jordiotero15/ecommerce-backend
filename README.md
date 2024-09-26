@@ -10,7 +10,7 @@ ________________________________________________________________________________
 Puedes agregar productos al sistema con la condición de que el título del producto no coincida con el de otro ya existente.
 Si se intenta crear un producto con un título ya creado, el sistema arrojará un error.
 
-Campos obligatorios:
+Requisitos obligatorios:
 
 -Título (title): Es obligatorio y debe ser único. Si ya existe otro producto con el mismo título, no se permitirá crear el nuevo producto.
 
@@ -19,7 +19,7 @@ Campos obligatorios:
 -Stock (stock): Opcional, con un valor por defecto si no se especifica(1).
 
 
-Campos opcionales:
+Requisitos opcionales:
 
 -Foto (photo): Si no se proporciona, se asignará una imagen predeterminada.
 
@@ -32,16 +32,16 @@ Campos opcionales:
 ----------------------------------------------------------------------------------------------------------
 2- Gestión de usuarios
 
-Los usuarios pueden registrarse en el sistema cumpliendo con los requisitos obligaotrios.
+Los usuarios pueden registrarse en el sistema cumpliendo con los requisitos obligatorios.
 
-Campos obligatorios:
+Requisitos obligatorios:
 
 -Email (email): Es obligatorio, de tipo texto, y debe ser único. Si se intenta registrar con un correo que ya existe, se producirá un error.
 
 -Contraseña (password): Obligatoria.
 
 
-Campos opcionales:
+Requisitos opcionales:
 
 -Foto (photo): Opcional, si no se proporciona, se asigna una imagen por defecto.
 
