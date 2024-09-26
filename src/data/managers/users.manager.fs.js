@@ -4,10 +4,10 @@ import crypto from "crypto";
 class UsersManager {
   constructor() {
     this.path = "./src/data/files/user.json";
-    this.init();
+    this.exist();
   }
 
-  init() {
+  exist() {
     const fileExists = fs.existsSync(this.path);
     if (fileExists) {
       console.log("File already exists");

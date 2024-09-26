@@ -2,20 +2,22 @@ import fs from "fs";
 import crypto from "crypto";
 
 class ProductsManager {
-    constructor(path) {
-        this.path = path;
+
+    constructor() {
+        this.path = "./src/data/files/products.json";
         this.exists();
     }
-    exists() {
-        const exist = fs.existsSync(this.path);
 
-        if (!exist) {
-            fs.writeFileSync(this.path, JSON.stringify([]));
-            console.log("File created");
-        } else {
+    exists() {
+        const fileExists = fs.existsSync(this.path);
+        if (fileExists) {
             console.log("File already exists");
+        } else {
+            fs.writeFileSync(this.path, JSON.stringify([]));
+            console.log("File Created");
         }
     }
+
     async readAll(category) {
         try {
             const data = await fs.promises.readFile(this.path, "utf-8");
@@ -32,7 +34,7 @@ class ProductsManager {
             throw error;
         }
     }
-    async read(id) {
+    async readOne(id) {
         try {
             const all = await this.readAll();
             const one = all.find((each) => each.id === id);
@@ -57,7 +59,7 @@ class ProductsManager {
         }
     }
 
-    async update(id, newData) {
+    async update(id, data) {
         try {
             const all = await this.readAll();
             const index = all.findIndex((product) => product.id === id);
@@ -66,7 +68,7 @@ class ProductsManager {
                 return null;
             }
 
-            all[index] = { ...all[index], ...newData };
+            all[index] = { ...all[index], ...data };
 
             const stringAll = JSON.stringify(all, null, 2);
 
@@ -79,15 +81,19 @@ class ProductsManager {
         }
     }
 
-    async delete(id) {
+    async destroy(id) {
         try {
             const all = await this.readAll();
             const filteredProducts = all.filter((product) => product.id !== id);
+
             if (all.length === filteredProducts.length) {
                 return null
             }
+
             const stringAll = JSON.stringify(filteredProducts, null, 2);
+
             await fs.promises.writeFile(this.path, stringAll);
+
             return `Product with id ${id} deleted`;
         } catch (error) {
             console.log(error);
@@ -96,5 +102,5 @@ class ProductsManager {
     }
 }
 
-const productsManager = new ProductsManager("./src/data/files/products.json");
+const productsManager = new ProductsManager();
 export default productsManager;

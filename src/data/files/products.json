@@ -166,5 +166,165 @@
     "price": 1100,
     "stock": 70,
     "id": "bb35db3f7ee7df8e69d487a8"
+  },
+  {
+    "title": "Citrulline Malate 300g",
+    "photo": "citrulline-malate-300g-img.jpg",
+    "category": "amino acids",
+    "price": 950,
+    "stock": 50,
+    "id": "a1f02bcf77b64599a9f67f47"
+  },
+  {
+    "title": "Hydrolyzed Whey Protein 2 lb",
+    "photo": "hydrolyzed-whey-protein-2lb-img.jpg",
+    "category": "protein",
+    "price": 1600,
+    "stock": 30,
+    "id": "e61c23023f1a483a8b963bd2"
+  },
+  {
+    "title": "Electrolyte Powder",
+    "photo": "electrolyte-powder-img.jpg",
+    "category": "hydration",
+    "price": 700,
+    "stock": 75,
+    "id": "5e0d83c6f7934de98734fe4f"
+  },
+  {
+    "title": "L-Arginine Capsules",
+    "photo": "l-arginine-capsules-img.jpg",
+    "category": "amino acids",
+    "price": 600,
+    "stock": 100,
+    "id": "9de1d2d84b6c48c5a7f3c3d1"
+  },
+  {
+    "title": "Probiotic 30 Billion CFU",
+    "photo": "probiotic-30-billion-cfu-img.jpg",
+    "category": "digestive health",
+    "price": 900,
+    "stock": 50,
+    "id": "a4e0b7a45d8f46f28b1bcf02"
+  },
+  {
+    "title": "CLA Capsules",
+    "photo": "cla-capsules-img.jpg",
+    "category": "weight loss",
+    "price": 700,
+    "stock": 60,
+    "id": "b391c0e6e68d4ffcb95dfae1"
+  },
+  {
+    "title": "L-Theanine Capsules",
+    "photo": "l-theanine-capsules-img.jpg",
+    "category": "stress relief",
+    "price": 550,
+    "stock": 85,
+    "id": "8e43d6c2c8984d86a16c79f3"
+  },
+  {
+    "title": "Melatonin 5mg",
+    "photo": "melatonin-5mg-img.jpg",
+    "category": "sleep aid",
+    "price": 400,
+    "stock": 110,
+    "id": "3d0a4dcff2b44d39b34dcf28"
+  },
+  {
+    "title": "Joint Support Formula",
+    "photo": "joint-support-formula-img.jpg",
+    "category": "joint health",
+    "price": 1000,
+    "stock": 40,
+    "id": "bf574ffb08954f5fa87190d7"
+  },
+  {
+    "title": "Super Greens Powder",
+    "photo": "super-greens-powder-img.jpg",
+    "category": "antioxidants",
+    "price": 950,
+    "stock": 65,
+    "id": "41b0b0e418724733aa1b24f7"
+  },
+  {
+    "title": "Vitamin B12 1000mcg",
+    "photo": "vitamin-b12-1000mcg-img.jpg",
+    "category": "vitamins",
+    "price": 500,
+    "stock": 120,
+    "id": "4e49f9bdb6d94ff7a4f39bcb"
+  },
+  {
+    "title": "Nitric Oxide Booster",
+    "photo": "nitric-oxide-booster-img.jpg",
+    "category": "performance",
+    "price": 850,
+    "stock": 55,
+    "id": "b894f0a4c6f34aeb82d499e8"
+  },
+  {
+    "title": "L-Tyrosine Capsules",
+    "photo": "l-tyrosine-capsules-img.jpg",
+    "category": "focus",
+    "price": 600,
+    "stock": 95,
+    "id": "2c6785bfb7f44b3b8e194f1f"
+  },
+  {
+    "title": "EAA Powder 300g",
+    "photo": "eaa-powder-300g-img.jpg",
+    "category": "amino acids",
+    "price": 900,
+    "stock": 45,
+    "id": "a4fc116ad8044e1da94c8dc8"
+  },
+  {
+    "title": "Calcium Magnesium Zinc",
+    "photo": "calcium-magnesium-zinc-img.jpg",
+    "category": "minerals",
+    "price": 750,
+    "stock": 70,
+    "id": "9870b7991f8f4d1dbfb87042"
+  },
+  {
+    "title": "HMB Capsules",
+    "photo": "hmb-capsules-img.jpg",
+    "category": "muscle growth",
+    "price": 1100,
+    "stock": 50,
+    "id": "9f37f3d06a73492dbf914ae7"
+  },
+  {
+    "title": "Coconut Water Powder",
+    "photo": "coconut-water-powder-img.jpg",
+    "category": "hydration",
+    "price": 800,
+    "stock": 75,
+    "id": "3c92b7229b064cf5a34704bc"
+  },
+  {
+    "title": "Digestive Enzymes Blend",
+    "photo": "digestive-enzymes-blend-img.jpg",
+    "category": "digestive health",
+    "price": 650,
+    "stock": 80,
+    "id": "1d979b0cfac948dc918f72d7"
+  },
+  {
+    "title": "Whey Protein Isolate 2 lb",
+    "photo": "whey-protein-isolate-2lb-img.jpg",
+    "category": "protein",
+    "price": 1550,
+    "stock": 35,
+    "id": "f5e42b116a134b438e0f2f25"
+  },
+  {
+    "title": "Shaker Bottle 700ml",
+    "photo": "shaker-bottle-700ml-img.jpg",
+    "category": "accessories",
+    "price": 300,
+    "stock": 150,
+    "id": "e20fc1230e2344bfae982421"
   }
 ]

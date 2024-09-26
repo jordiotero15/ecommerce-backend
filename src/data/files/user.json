@@ -54,5 +54,12 @@
     "role": "user",
     "photo": "nicolas-photo.jpg",
     "id": "9ec1a0c8ccd5615cd1755f5f"
+  },
+  {
+    "email": "matiaslopez@gmail.com",
+    "password": 123,
+    "photo": "default-photo-url.jpg",
+    "role": "user",
+    "id": "bf0d0b8b0ede4a3d51a16e60"
   }
 ]

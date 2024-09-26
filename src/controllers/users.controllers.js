@@ -8,7 +8,7 @@ class UserControllers {
       const { role } = req.query;
       const data = await usersManager.readAll(role);
       if (data.length > 0) {
-        return res.status(200).json({ data, message: "users fetched" });
+        return res.status(200).json({ data, message: "Users fetched" });
       } else {
         const error = new Error("Users not found");
         error.statusCode = 404;
@@ -24,7 +24,7 @@ class UserControllers {
       const { uid } = req.params;
 
       if (!uid) {
-        return res.status(400).json({ message: "User ID is required" });
+        return res.status(400).json({ message: "User ID is required!" });
       }
 
       const user = await usersManager.readOne(uid);
@@ -96,9 +96,6 @@ class UserControllers {
       return next(error);
     }
   }
-
-
-
 
 }
 
