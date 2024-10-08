@@ -3,6 +3,7 @@ import router from "./src/routers/index.router.js";
 import morgan from "morgan";
 import errorHandler from "./src/middlewares/errorHandler.mid.js";
 import cors from "cors";
+import pathHandler from "./src/middlewares/pathHandler.mid.js";
 
 try {
   const server = express();
@@ -20,6 +21,7 @@ try {
 
   server.use(router);
   server.use(errorHandler);
+  server.use(pathHandler);
 } catch (error) {
   console.log(error);
 }
