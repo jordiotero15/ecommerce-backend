@@ -4,10 +4,10 @@ const viewsRouter = Router();
 
 viewsRouter.get("/", (req, res, next) =>{
     try {
-        return res.render("index", show);
+        return res.render("index");
     } catch (error) {
         return next(error);
     }
-} )
+}, showProducts )
 
 export default viewsRouter;
